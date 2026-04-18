@@ -310,7 +310,7 @@ footer {
     opacity: 0%;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1254px) {
     header, main {
         opacity: 0%;
         user-select: none;

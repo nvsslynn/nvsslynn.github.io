@@ -306,7 +306,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.4);
     font-size: 1rem;
-    z-index: 1000;
+    z-index: -5;
     opacity: 0%;
 }
 
@@ -318,5 +318,6 @@ footer {
 
     #warn {
         opacity: 100%;
+        z-index: 1000;
     }
 }

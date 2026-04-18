@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nvsslynn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="warn">
+        <h1>Visualize em uma tela maior! &hearts;</h1>
+    </div>
+    <header id="home">
+        <div class="h-wrapper">
+            <div class="h-sections">
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <div class="h-title">
+                <p class="port">PORTFÓLIO</p>
+                <h1>Oi, eu sou a <span>Lynn Novaes.</span></h1>
+                <p>Desenvolvedora Web, Front-end com habilidade em interatividade e responsividade.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="section">
+            <div class="s-wrapper s-sobre">
+                <h1>Sobre <span>mim</span></h1>
+                <p>Sou uma <span>desenvolvedora web</span> apaixonada por criar experiências digitais envolventes e funcionais. Com habilidades em desenvolvimento <web>
+                <span>front-end</span>, busco constantemente aprimorar minhas habilidades para entregar projetos de alta qualidade. Adoro trabalhar em equipe e estou sempre aberta a aprender novas tecnologias e técnicas para me manter atualizada no mundo do desenvolvimento.</p>
+                <p>Foco em landing pages, single-page websites e sistemas simples.</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <div class="s-wrapper s-habilidades">
+                <h1>Minhas <span>habilidades</span></h1>
+                <div class="hcards">
+                    <div class="card">
+                        <i>&diams;</i>
+                        <h1>HTML</h1>
+                        <p>Estruturação de páginas web com semântica e acessibilidade.</p>
+                    </div>
+
+                    <div class="card">
+                        <i>&spades;</i>
+                        <h1>CSS</h1>
+                        <p>Estilização de elementos com layout responsivo e animações.</p>
+                    </div>
+
+                    <div class="card">
+                        <i>&hearts;</i>
+                        <h1>Python</h1>
+                        <p>Desenvolvimento com frameworks e scripts back-end básicos.</p>
+                    </div>
+
+                    <div class="card">
+                        <i>&clubs;</i>
+                        <h1>MySQL</h1>
+                        <p>Design e manipulação de bancos de dados relacionais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="s-wrapper s-projetos">
+                <h1>Meus <span>projetos!</span></h1>
+                
+                <p>Meus principais projetos envolvem uso de <span>Python</span> (principalmente com o framework <span>Flask</span>) no Back-end e <span>HTML, CSS e JavaScript</span> na minha especialidade, o <span>Front-end.</span></p>
+
+                <a href="https://github.com/nvsslynn?tab=repositories&q=&type=&language=&sort=stargazers">Meus repositórios</a>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="s-wrapper s-contato">
+                <h1>Meus <span>contatos</span></h1>
+
+                <p>Estou aberta a oportunidades de <span>trabalho</span> e <span>colaboração em projetos</span>. Se você deseja entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem ou me seguir nas redes!</p>
+
+                <div class="contatos">
+                    <div class="ctt">
+                        <h1>Email</h1>
+                        <p>nvsslynn@gmail.com</p>
+                    </div>
+
+                    <div class="ctt">
+                        <h1>Instagram</h1>
+                        <p>@httpdabnrj</p>
+                    </div>
+
+                    <div class="ctt">
+                        <h1>GitHub</h1>
+                        <p>@nvsslynn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito por <span>Lynn Novaes</span> &copy; 2026, Todos os direitos reservados.</p>
+    </footer>
+
+    <a id="hbtn" href="#home" class="back">
+        🏠
+    </a>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const botao = document.querySelector('#hbtn');
+
+            if (window.scrollY > 300) {
+                botao.style.opacity = '100%';
+            } else {
+                botao.style.opacity = '0%';
+            }
+            });
+    </script>
+</body>
+</html>
